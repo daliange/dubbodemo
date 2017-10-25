@@ -14,6 +14,7 @@ public class Consumer {
         DemoService demoService = context.getBean(DemoService.class);
         System.out.println("consumer");
         System.out.println(demoService.getPermissions(1L));
+        // 按任意键退出
         System.in.read();
     }
 }

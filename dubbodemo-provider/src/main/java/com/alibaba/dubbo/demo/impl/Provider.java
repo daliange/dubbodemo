@@ -11,6 +11,7 @@ public class Provider {
         System.out.println(context.getDisplayName() + ": here");
         context.start();
         System.out.println("服务已经启动...");
+        // 按任意键退出
         System.in.read();
     }
 
